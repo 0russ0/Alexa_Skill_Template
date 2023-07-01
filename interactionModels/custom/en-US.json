@@ -1,0 +1,65 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "cancel"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "what should i do",
+            "how does this work",
+            "help me",
+            "help"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "stop",
+            "exit"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "PlayStream",
+          "samples": [
+            "start playing",
+            "play the radio",
+            "play the live stream",
+            "play podcast",
+            "play home team fm ",
+            "play home team radio",
+            "play radio",
+            "play this podcast",
+            "play stream",
+            "start",
+            "play"
+          ]
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StartOverIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [],
+      "invocationName": "home team f. m."
+    }
+  }
+}
