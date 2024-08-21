@@ -1,13 +1,13 @@
 const Alexa = require('ask-sdk-core');
 
-const soundURL = 'https://streaming.live365.com/a22325';
+const soundURL = 'https://streaming.live365.com/a00968';
 const metadata = {
-    "title": "Home Team FM",
-    "subtitle": "Home Team FM Live Stream",
+    "title": "Brothers FM",
+    "subtitle": "Allman Brothers Radio",
     "art": {
         "sources": [
             {
-                "url": "https://cdn.voiceapps.com/1615979128399-762ce8de-2b47-1175-2426d47813f0.jpg",
+                "url": "https://brothers.fm/wp-content/uploads/2024/08/Brothers-FM-logo-Green-FINAL-transparent-2560x2560-1-2048x2048.png",
                 "widthPixels": 512,
                 "heightPixels": 512
             }
@@ -16,7 +16,7 @@ const metadata = {
     "backgroundImage": {
         "sources": [
             {
-                "url": "https://cdn.voiceapps.com/1615979130472-1b266b38-5808-b55a-7a777f43bc08.jpg",
+                "url": "https://brothers.fm/wp-content/uploads/2024/08/Brothers-FM-logo-Green-FINAL-transparent-2560x2560-1-2048x2048.png",
                 "widthPixels": 1200,
                 "heightPixels": 800
             }
@@ -41,7 +41,7 @@ const AudioIntentHandler = {
     async handle(handlerInput) {
         let expectedPreviousToken = 'token' + Math.random();
 
-        let speakOutput = `Now playing Home Team dot f m`;
+        let speakOutput = `Now playing Brothers F M`;
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
@@ -139,7 +139,7 @@ const HelpIntentHandler = {
     handle(handlerInput) {
         let expectedPreviousToken = 'token' + Math.random();
 
-        let speakOutput = `This skill plays the live stream of ${metadata.title}. Playing great music from Home Team dot fm.`;
+        let speakOutput = `This skill plays the live stream of ${metadata.title}. Playing great music from Brother F M`;
 
 
         return handlerInput.responseBuilder
