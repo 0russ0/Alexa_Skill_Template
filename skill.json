@@ -5,23 +5,23 @@
         "en-US": {
           "summary": "A radio station devoted to great music and fantastic people",
           "examplePhrases": [
-            "Alexa play Home Team FM",
-            "Alexa start Home Team FM",
-            "Alexa Launch Home Team FM"
+            "Alexa play Brothers FM",
+            "Alexa start Brothers FM",
+            "Alexa Launch Brother FM"
           ],
           "keywords": [
             "home",
             "team",
-            "fm",
-            "music",
-            "stream",
-            "jamband",
+            "ABB",
+            "blues",
+            "ALlman Brothers",
+            "Allman",
             "rock"
           ],
-          "name": "Home Team FM",
-          "description": "This audio channel is curated by the HOME TEAM. Playing only choice cuts.",
-          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
-          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+          "name": "Brothers FM",
+          "description": "This radio station is devoted to the music of the brothers and sisters of the Allman Brothers Band",
+          "smallIconUri": "https://brothers.fm/wp-content/uploads/2024/08/Brothers-FM-logo-Green-FINAL-transparent-2560x2560-1-2048x2048.png",
+          "largeIconUri": "https://brothers.fm/wp-content/uploads/2024/08/Brothers-FM-logo-Green-FINAL-transparent-2560x2560-1-2048x2048.png"
         }
       },
       "automaticDistribution": {
