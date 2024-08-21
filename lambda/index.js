@@ -7,7 +7,7 @@ const metadata = {
     "art": {
         "sources": [
             {
-                "url": "https://brothers.fm/wp-content/uploads/2024/08/Brothers-FM-logo-Green-FINAL-transparent-2560x2560-1-2048x2048.png",
+                "url": "https://brothers.fm/wp-content/uploads/2024/08/Brothers-FM-final-small512.jpg",
                 "widthPixels": 512,
                 "heightPixels": 512
             }
@@ -16,9 +16,9 @@ const metadata = {
     "backgroundImage": {
         "sources": [
             {
-                "url": "https://brothers.fm/wp-content/uploads/2024/08/Brothers-FM-logo-Green-FINAL-transparent-2560x2560-1-2048x2048.png",
-                "widthPixels": 1200,
-                "heightPixels": 800
+                "url": "https://brothers.fm/wp-content/uploads/2024/08/Brothers-FM-final-small512.jpg",
+                "widthPixels": 512,
+                "heightPixels": 512
             }
         ]
     }
